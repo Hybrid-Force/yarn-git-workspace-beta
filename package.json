@@ -1,0 +1,10 @@
+{
+  "name": "yarn-git-workspace-beta",
+  "packageManager": "yarn@3.2.1",
+  "dependencies": {
+    "@demo/two": "Hybrid-Force/yarn-git-workspace-alpha#workspace=@demo/two"
+  },
+  "resolutions": {
+    "@demo/one": "Hybrid-Force/yarn-git-workspace-alpha#workspace=@demo/one"
+  }
+}
